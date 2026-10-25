@@ -4744,7 +4744,7 @@ function pintarBiblio(){
     ((filtro === 'listas' && listaAbierta) || filtro === 'favoritos') ? 'none' : '';
   if(!CANCIONES.length && grupoBib(filtro) === 'canciones'){
     C.innerHTML = '<div class="vacio"><span class="em">➕</span>Tu biblioteca está vacía.<br>'+
-      'Toca <b>Añadir música</b> y elige tus MP3<br>' + (ES_ANDROID ? 'desde la <b>música de la tablet</b>' : 'desde <b>Archivos</b> o <b>iCloud Drive</b>') + '.<br><br>'+
+      'Toca <b>Añadir música</b> y elige tus MP3<br>' + (ES_ANDROID ? 'desde la <b>música de tu móvil</b>' : 'desde <b>Archivos</b> o <b>iCloud Drive</b>') + '.<br><br>'+
       '</div>'+
       '<a class="btn solido" href="guia.html" target="_blank" rel="noopener">📖&nbsp; Cómo añadir mi música</a>'+
       '<button class="btn" data-ir-tab="musica">🎧&nbsp; Buscar un cantante</button>'+
